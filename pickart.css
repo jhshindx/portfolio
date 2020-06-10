@@ -1,0 +1,1174 @@
+.wrap{
+    width: 100%;
+}
+
+img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%; 
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url("../20200501/assets/pickart_pf/pickart_0.png") ;
+    background-position: center;
+    /* background: url("../20200501/assets/image/bg-lemonbox.png") repeat-x center; */
+}
+
+.intro{
+    width: 100%;
+    height: 6px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url("../20200501/assets/lemonbox_pf/noah.png") ;
+    background-position: center;
+    /* background: url("../20200501/assets/image/bg-lemonbox.png") repeat-x center; */
+}
+
+.container .pickart_pf{
+    overflow: hidden;
+    display: block;
+    max-width: 100%; 
+    height: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    /* background-image: url("../20200501/assets/lemonbox_pf/lemonbox_pf_1.png") ; */
+    background-position: center;
+    /* background: url("../20200501/assets/image/bg-lemonbox.png") repeat-x center; */
+}
+
+.pickart_pf ul{
+    float: left;
+    max-width: 100%; 
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+/* layout 전체 배경 */
+
+body {
+    /* background-image: url("../20200501/assets/image/flow.png"); */
+    background-color: rgb(245, 245, 245);
+    background-position: center top;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+
+}
+.footer h2{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+/* container 가운데 */
+.container{
+    width: 1440px;
+    background-color: rgba(red, green, blue, 0.4);
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+/* content layout */
+
+.contents{
+    /* background-image: url("../20200501/assets/image/bluecar1920.png") repeat-x; */
+    /* width: 1440px; */
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.content-nav{
+    width: 100%;
+    height: 1080px;
+    background-color: rgb(240, 240, 240);
+    align-items: center;
+
+
+}
+
+.content-tit{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* .content-ban{
+    /* width: 100%;
+    height: 100px; */
+    /* background-color: #444; */
+/* } */
+
+/* .content-cont{
+    /* width: 100%;
+    height: 100px; */
+    /* background-color: #333; */
+
+/* } */ */ */
+
+
+/* nav */
+.nav{
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.nav div{
+    float: left; width: 26%; 
+}
+
+.nav div h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin: 100px;
+
+}
+    
+.nav ul{
+    overflow: hidden;
+}
+
+.nav ul li{
+    float: left;
+    width: 280px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 4px;
+    color: black;
+}
+
+.nav ul li a{
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    border-radius: 4px;
+
+}
+.nav ul li a:hover{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.nav div.last{
+    width: 20%;
+}
+.nav div.last ul li{
+    width: 100%;
+}
+
+
+
+/* 이미지 표현 방법
+1. html 태그 통해서 표현 - 의미가 있는 이미지 (alt: 대체 문자가 필요 - 웹 표준 준수)
+2. css 속성을 통해서 표현하는 방법 - 의미가 없는 이미지
+3. 이미지 스프라이트 방법 (IR효과)
+*/
+
+/* quick */
+.quick{
+    text-align: right;
+    font-weight: 400;
+    font-style: 10px;
+}
+
+.quick a{
+    color: rgb(0, 0, 0);
+    padding: 28px 0 0 28px;
+    display: inline-block;
+
+}
+
+.quick a:hover{
+    color: chocolate;
+}
+
+
+/* 블록 구조로 썼을 때 필요 */
+/* .quick ul{
+    overflow: hidden;
+}
+
+.quick ul li{
+    float: left;
+} */
+
+
+/* inline */
+.title{
+    text-align: center;
+
+}
+
+.title p{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 18px;
+    display: inline-block;
+    color: black;
+    margin-top: 200px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title h1{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 52px;
+    font-weight: 600;
+    color: rgb(200, 100, 0);
+    padding: 15px 15px;
+    /* text-transform: uppercase; */
+
+}
+
+.title h2{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 15px 15px;
+    padding: 200px;
+}
+
+.title h3{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+}
+
+
+/* position */
+/* .title{
+
+}
+.title p{
+    background-color: tomato;
+    font-size: 28px;
+    color: #000;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 320px;
+    top: 200px;
+}
+
+.title h1 a{
+    background-color: turquoise; 
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    display: block;
+    position: absolute;
+    left: 390px;
+    top: 160px;
+} */
+
+/* icon */
+.icon{
+    position: absolute;
+    left: 420px;
+    top: 480px;
+    padding: 15px 15px;
+}
+.icon li{
+    float: left;
+}
+.icon ul{
+    overflow: hidden;
+}
+
+.icon li a{
+    width: 280px;
+    height: 60px;
+    background-color: turquoise;
+    display: block;
+    margin: 0px 3px;
+    /* background-image: url("../20200501/assets/image/bg-pick.png"); */
+}
+
+.icon li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.icon li.icon-title1 a{
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 60px;
+}
+
+.icon li.icon-title1 a:hover{
+    background-color: black;
+    color: white;
+}
+.icon li.icon-title2 a{
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 60px;
+}
+
+.icon li.icon-title2 a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ir 효과 */
+.ir{
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow-y: hidden;
+    position: absolute;
+    left: 0;
+    top: 0em;
+}
+
+/* tit */
+
+/* .tit{
+
+} */
+
+.tit h2{
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 180px;
+}
+
+.tit h3{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tit .btn{
+    position: absolute;
+    right: 0;
+    top: 120px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: 400;
+}
+
+.tit .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* ban */
+.ban{
+    padding: 180px 0;
+    margin-left: 76px;
+}
+
+.ban .ban-prev{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    border-radius: 48px;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    top: 400px;
+    
+
+}
+
+.ban .ban-prev:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.ban .ban-next{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    border-radius: 48px;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    top: 400px;
+}
+
+.ban .ban-next:hover{
+    background-color: white;
+    color: black;
+}
+
+.ban ul{
+    overflow: hidden;
+}
+.ban ul li{
+    float: left;
+    width: 330px;
+    text-align: center;
+    font-size: 0;
+}
+.ban ul li a img{
+    border: 1px solid rgba(red, green, blue, 0);
+}
+
+/* .ban ul li a:hover img{
+
+} */
+
+.ban img{
+    display: block;
+}
+
+
+/* cont layout */
+.cont{
+    overflow: hidden;
+    margin-left: 0px;
+    padding-bottom: 100px;
+}
+
+.cont .box{
+    position: relative;
+    width: 400px;
+    height: 280px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin: 0 30px 30px 0;
+    padding: 30px;
+
+}
+.cont .box1{
+    border-left: 2px solid black;
+}
+.cont .box2{
+    border-left: 2px solid black;
+}
+.cont .box3{
+    margin-right: 0; 
+    padding-right: 0;
+}
+.cont .box4{
+    border-left: 2px solid black;
+}
+.cont .box5{
+    border-left: 2px solid black;
+}
+.cont .box6{
+    margin-right: 0; 
+    padding-right: 0;
+
+}
+
+
+.cont .box .icon-img{
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    display: block;
+    position: absolute; 
+    /* left: 0; right: 0; */
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cont .box .icon-img:hover{
+    background-color: white;
+    color: black;
+}
+
+.cont .box .icon-tit{
+    padding-left: 60px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    color: black;
+}
+.cont .box .icon-desc{
+    margin-left: 60px;
+    margin-bottom: 20px;    
+    font-size: 14px;
+    color: #878787;
+    border-bottom: 1px solid black;
+}
+
+
+
+/* notice1 */
+
+.notice{
+    position: relative;
+}
+
+.notice h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: chocolate;
+}
+
+
+.notice li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
+    background: url("../20200501/assets/image/ico-dot.png") no-repeat 0px 8px;
+    padding-left: 8px;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.notice .more{
+    position: absolute; right: 0; top: 0;
+    /* background: url("../20200501/assets/image/bluecar1920.png"); */;
+    width: 52px;
+    height: 24px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 48px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+
+.notice .more:hover{
+    background-color: white;
+    color: chocolate;
+}
+
+
+
+/* notice2 */
+
+.notice2{
+    position: relative;
+}
+.notice2 h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: chocolate;
+}
+
+/* .notice2 ul{
+
+} */
+.notice2 li{
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    background: url("../20200501/assets/image/ico-dot.png") no-repeat 0px 8px;
+
+
+}
+.notice2 li a{
+    width: 60%;
+    float: left;
+    padding-left: 8px;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #969696;
+    /* background-color: chocolate; */
+
+}
+.notice2 li .time{
+    width: 30%;
+    float: right;
+    /* background-color: chocolate; */
+    font-size: 12px;
+    text-align: right;
+}
+.notice2 .more{
+    position: absolute; right: 0; top: 0;
+    /* background: url("../20200501/assets/image/bluecar1920.png"); */;
+    width: 52px;
+    height: 24px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 48px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+
+.notice2 .more:hover{
+    background-color: white;
+    color: chocolate;
+}
+
+
+/* notice3 */
+.notice3{
+    position: relative;
+}
+.notice3 h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: chocolate;
+}
+
+/* .notice3 ul{
+
+} */
+.notice3 li{
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 40px;
+
+
+}
+.notice3 li a{
+    width: 60%;
+    float: left;
+    padding-left: 8px;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #969696;
+    /* background-color: chocolate; */
+
+}
+
+.notice3 li a img{
+    position: absolute; left: 0; right: 0;
+    width: 48px;
+    height: 24px;
+    background-color: chocolate;
+
+}
+
+.notice3 li a strong{
+    display: block;
+    padding-left: 20px;
+
+}
+
+.notice3 li a em{
+    display: block;
+    padding-left: 20px;
+
+}
+
+.notice3 .more{
+    position: absolute; right: 0; top: 0;
+    /* background: url("../20200501/assets/image/bluecar1920.png"); */;
+    width: 52px;
+    height: 24px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 48px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+
+.notice3 .more:hover{
+    background-color: white;
+    color: chocolate;
+}
+
+
+
+
+/* content-tit /start*/
+
+
+
+/* contetns-tit */
+
+.cont-tit{
+    width: 100%;
+    text-align: center;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../20200501/assets/image/bg-cream-2.svg");
+    background-position: top;
+
+
+}
+
+.cont-tit p{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 52px;
+    font-weight: 600;
+    display: inline-block;
+    color: black;
+    margin-top: 500px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    /* margin-left: 200px; */
+}
+.cont-tit h1{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 18px;
+    color: rgb(255, 153, 0);
+    padding: 15px 15px;
+    text-transform: uppercase;
+    /* margin-left: 200px; */
+
+
+}
+
+.cont-tit h2{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    /* margin-left: 200px; */
+
+}
+
+.cont-tit h3{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-left: 80px;
+
+}
+
+/* tit-bg */
+
+.cont-tit-bg{
+    width: 100%;
+    text-align: center;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../20200501/assets/image/bg-cream-3.svg");
+    background-position: top;
+
+
+}
+
+.cont-tit-bg p{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 52px;
+    font-weight: 600;
+    display: inline-block;
+    color: white;
+    margin-top: 500px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    /* margin-left: 200px; */
+}
+.cont-tit-bg h1{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 18px;
+    color: rgb(255, 153, 0);
+    padding: 15px 15px;
+    text-transform: uppercase;
+    /* margin-left: 200px; */
+
+
+}
+
+.cont-tit-bg h2{
+    font-size: 14px;
+    color: white;
+    padding: 15px 15px;
+    /* margin-left: 200px; */
+
+}
+
+.cont-tit-bg h3{
+    font-size: 14px;
+    color:white;
+    padding: 15px 15px;
+    margin-left: 80px;
+
+}
+
+
+
+/* tit-bg-4 */
+
+.cont-tit-bg4{
+    width: 100%;
+    text-align: center;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../20200501/assets/image/bg-cream-4.svg");
+    background-position: top;
+
+
+}
+
+
+
+/* tit-bg-5 */
+
+.cont-tit-bg5{
+    width: 100%;
+    text-align: center;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../20200501/assets/image/bg-cream-5.svg");
+    background-position: top;
+
+
+}
+
+
+/* tit-bg-6 */
+
+/* .cont-tit-bg6{
+    width: 100%;
+    text-align: center;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../20200501/assets/image/bg-cream-6.svg");
+    background-position: top;
+} */
+
+.cont-tit-bg7{
+    width: 100%;
+    text-align: center;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../20200501/assets/image/bg-cream-7.svg");
+    background-position: top;
+}
+
+.cont-tit-bg8{
+    width: 100%;
+    text-align: center;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../20200501/assets/image/bg-cream-8.svg");
+    background-position: top;
+}
+
+.cont-tit-bg9{
+    width: 100%;
+    text-align: center;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../20200501/assets/image/Frame-2.png");
+    background-position: top;
+}
+
+
+
+
+
+
+
+
+
+/* contetns-tit-left */
+
+.cont-tit-left{
+    width: 100%;
+    text-align: left;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    /* background-image: url("../20200501/assets/image/bg-cream-2.svg"); */
+    background-position: top;
+    margin-top: 200px;
+
+
+}
+
+.cont-tit-left p{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 52px;
+    font-weight: 600;
+    display: inline-block;
+    color: black;
+    margin-top: 200px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 80px;
+}
+.cont-tit-left h1{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 18px;
+    color: rgb(255, 153, 0);
+    padding: 15px 15px;
+    text-transform: uppercase;
+    margin-left: 80px;
+
+
+}
+
+.cont-tit-left h2{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-left: 80px;
+
+}
+
+.cont-tit-left h3{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-left: 80px;
+
+}
+
+
+
+/* cont-tit-two */
+
+.cont-tit-two{
+    width: 100%;
+    text-align: right;
+    height: 1080px;
+    position: top;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-color: white;
+    margin: 0 auto;
+    background-position: top;
+    /* margin-top: 200px; */
+
+    
+
+
+}
+
+.cont-tit-two p{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 52px;
+    font-weight: 600;
+    display: inline-block;
+    color: black;
+    margin-top: 200px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 80px;
+}
+.cont-tit-two h1{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 18px;
+    color: rgb(255, 153, 0);
+    padding: 15px 15px;
+    text-transform: uppercase;
+    margin-right: 80px;
+
+
+}
+
+.cont-tit-two h2{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-right: 80px;
+
+}
+
+.cont-tit-two h3{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-right: 80px;
+
+
+
+
+
+
+
+/* cont-tit-right */
+
+
+}
+
+.cont-tit-right{
+    width: 100%;
+    text-align: right;
+    height: 1080px;
+    position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url("../20200501/assets/image/bg-color.svg");
+    margin: 0 auto;
+    background-position: top;
+
+}
+
+.cont-tit-right p{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 52px;
+    font-weight: 600;
+    display: inline-block;
+    color: black;
+    margin-top: 200px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 80px;
+}
+.cont-tit-right h1{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 18px;
+    color: rgb(255, 153, 0);
+    padding: 15px 15px;
+    text-transform: uppercase;
+    margin-right: 80px;
+
+
+}
+
+.cont-tit-right h2{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-right: 80px;
+
+}
+
+.cont-tit-right h3{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-right: 80px;
+
+
+    /* cont-tit-right */
+
+
+}
+
+.cont-tit-typo{
+    width: 100%;
+    text-align: right;
+    height: 1080px;
+    position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url("../20200501/assets/image/typo.svg");
+    margin: 0 auto;
+    background-position: top;
+
+}
+
+.cont-tit-typo p{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 52px;
+    font-weight: 600;
+    display: inline-block;
+    color: black;
+    margin-top: 200px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 80px;
+}
+.cont-tit-typo h1{
+    background-color: rgba(red, green, blue, 0);
+    font-size: 18px;
+    color: rgb(255, 153, 0);
+    padding: 15px 15px;
+    text-transform: uppercase;
+    margin-right: 80px;
+
+
+}
+
+.cont-tit-typo h2{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-right: 80px;
+
+}
+
+.cont-tit-typo h3{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px;
+    margin-right: 80px;
+}
+
+/* contetns-tit-pd */
+
+
+.cont-tit-pd{
+    width: 100%;
+    height: 1080px;
+    background-color: black;
+    margin: 0 auto;
+    
+}
+
+.quick-product{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    margin: 20px;
+}
+
+.nav-product{
+    background-color: none;
+    background-image: url("../20200501/assets/image/main_navi.png");
+}
+
+

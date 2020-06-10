@@ -1,0 +1,38 @@
+/* 여백 초기화 */
+
+body, div, dl, dd, dt, ul, li, 
+h1, h2, h3, h4, h5, h6, input, ol,
+form, legend, textarea, select, fieldset, p, button{
+    margin: 0;
+    padding: 0;
+}
+
+/* a 링크 초기화 */
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(200, 100, 0);
+}
+
+/* 폰트 초기화 */
+body, input, textarea, select, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+    background-color: white;
+}
+
+/* 제목 스타일 초기화 */
+h1, h2, h3, h4, h5, h6{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* 블릿기호 초기화 */
+li, ol, ul {list-style: none;}
+
+/* 이탤릭체 초기화ㅣ */
+em, address {font-style: normal;}
